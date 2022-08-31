@@ -18,7 +18,8 @@ The first deliverables requires using Python, Pandas, and SQLAlchemy to retrieve
 
 
 ## Summary
-Based on the temperature and precipitation statistics, it seems a surf and ice cream shop in Oahu would be open for business most of the year.  It is important to ensure the weather is consistent across the island and whether elevation has impacts on temperatures or precipitation.  Additional analysis was performed to review weather at the stations across Oahu.  The chart below indicates elevation doesn't appear to be a major factor in weather patterns therefore other factors should be considered when choosing the exact location.    
+Based on the temperature and precipitation statistics, it seems a surf and ice cream shop in Oahu would be open for business most of the year.  It is important to ensure the weather is consistent across the island and whether elevation has impacts on temperatures or precipitation.  Additional analysis was performed to review weather at the stations across Oahu.  The chart below indicates elevation doesn't appear to be a major factor in weather patterns.  For instance the highest station, Upper Wahiawa's average temperature and precipitation amounts is between other stations' at lower elevations.  The same is true for the station at the lowest elevation, Honolulu Observatory.  Therefore other factors should be considered when choosing the exact location.    
+
 
 
 ![Temp_Precip_Station.png](https://github.com/dschul01/surfs_up/blob/main/Resources/Temp_Precip_Station.png)
