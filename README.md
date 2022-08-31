@@ -8,9 +8,9 @@ The purpose of this project is to utilize SQLAlchemy to query a SQLite database 
 
 
 
-![Jun_Temp_Precip_Stats.png](https://github.com/dschul01/surfs_up/blob/main/Resources/Jun_Temp_Precip_Stats.png)
+<img src="https://github.com/dschul01/surfs_up/blob/main/Resources/Jun_Temp_Precip_Stats.png" width="200" height="200">
 
-![Dec_Temp_Precip_Stats.png](https://github.com/dschul01/surfs_up/blob/main/Resources/Dec_Temp_Precip_Stats.png)
+<img src="https://github.com/dschul01/surfs_up/blob/main/Resources/Dec_Temp_Precip_Stats.png" width="200" height="200">
 
 
 
