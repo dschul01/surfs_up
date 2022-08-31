@@ -1,11 +1,16 @@
 # Surfs Up
-Analysis on weather data utilizing SQLAlchemy, SQLite, Jupyter Notebook, and Pandas
+Analysis on weather data utilizing SQLAlchemy, SQLite, Jupyter Notebook, Python and Pandas
 
 ## Overview of Surf's Up Analysis
-The purpose of this project is to utilize SQLAlchemy to query a SQLite database containing weather data from weather stations across Oahu, HI.  The two key elements to be analyzed are precipitation amounts and temperatures to determine if it's viable to open up a surf and ice cream shop in Oahu, HI.  
+The purpose of this project is to utilize SQLAlchemy to query a SQLite database containing weather data from weather stations across Oahu, HI.  The two key elements to be analyzed are precipitation amounts and temperatures within the months of June and December over multiple years to determine if it's viable to open up a surf and ice cream shop in Oahu, HI.
 
 ## Results
+The first deliverables requires using Python, Pandas, and SQLAlchemy to retrieve all temperatures for the months of June and December across multiple years, and then providing summary statistics.  Summary statistics for precipitation amounts were later combined to provide more robust analysis for the viability of the shop.  The resulting stats for June and December are below and indicate the following:
 
+* The difference between mean temperatures across June and December is nominal at 3.9 degrees; 5% of June's mean.
+* The difference between mean precipitation amounts across June and December is 0.08 inches; 59% of June's mean.
+	- Despite the significant increase over June, the average rainfall per day in December is just over 0.2 of an inch.  
+* The largest weather variance between June and December is the minimum temperature with a low of 56 in December compared to 64 in June.
 
 
 <img src="https://github.com/dschul01/surfs_up/blob/main/Resources/Jun_Temp_Precip_Stats.png" width="300" height="200"> | <img src="https://github.com/dschul01/surfs_up/blob/main/Resources/Dec_Temp_Precip_Stats.png" width="300" height="200">
@@ -13,25 +18,11 @@ The purpose of this project is to utilize SQLAlchemy to query a SQLite database 
 
 
 ## Summary
+Based on the temperature and precipitation statistics, it seems a surf and ice cream shop in Oahu would be open for business most of the year.  It is important to ensure the weather is consistent across the island and whether elevation has impacts on temperatures or precipitation.  Additional analysis was performed to review weather at the stations across Oahu.  The chart below indicates elevation doesn't appear to be a major factor in weather patterns therefore other factors should be considered when choosing the exact location.    
+
 
 ![Temp_Precip_Station.png](https://github.com/dschul01/surfs_up/blob/main/Resources/Temp_Precip_Station.png)
 
+There are many other factors such as demand, financing, competition, etc. that should be reviewed to make a final decision which should be considered before opening the shop.
 
 
-
-<img src="https://github.com/dschul01/Pewlett-Hackard-Analysis/blob/main/Retiring_Title.png" width="200" height="200">
-3) There are 1,549 employees who meet the mentorship eligibility parameters.  Breakdown by job title is provided below.
-
-<img src="https://github.com/dschul01/Pewlett-Hackard-Analysis/blob/main/Mentorship_Eligible.png" width="200" height="200">
-4) PH should look at expanding eligibility for the mentorship program as there are only 2% (1,549 eligible compared to 72,458 retirees) of retiring employees which meet the current criteria.
-
-
-## Summary
-PH is facing a significant volume of 72,458 retirees in the coming years as illustrated above.  The company needs to assess workload and other factors before determining if all retirees should be replaced.  The table below shows non-retirees outnumber retirees 2.3 : 1 per title.  It's possible the remaining workforce can keep up with the current workload, but deeper analysis is necessary.
-
-
-<img src="https://github.com/dschul01/Pewlett-Hackard-Analysis/blob/main/Ratio_Title.png" width="600" height="200">
-
-PH should think about expanding its criteria for qualified retirement-ready employees to mentor the next generation of employees.  There are only 1,549 eligible using their current criteria.  Expanding the birthdate range by one year to include 1964 increases the eligibility pool from 1,549 to 19,905.  SQL code is provided to show the impact of adding one year to the mentorship criteria.
-
-<img src="https://github.com/dschul01/Pewlett-Hackard-Analysis/blob/main/Expanded_Mentorship_Criteria.png" width="600" height="600">
